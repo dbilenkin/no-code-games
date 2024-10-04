@@ -85,9 +85,6 @@ function App() {
 
 const styles = {
   container: {
-    backgroundColor: '#1e1e1e',
-    color: '#ffffff',
-    minHeight: '100vh',
     padding: '20px',
     boxSizing: 'border-box',
   },
@@ -122,9 +119,10 @@ const styles = {
   iframe: {
     display: 'block',
     margin: '0 auto',
-    width: '90%',
-    height: '80vh',
+    width: '80%',
+    height: '70vh',
     border: 'none',
+    backgroundColor: 'white',
   },
   error: {
     color: '#ff5555',
